@@ -23,8 +23,7 @@ public class App {
         System.out.println("Sum of 1 to 10 is " + sum2 + ". " + "Average is " + String.format("%.1f", ave2) + ".");
 
         //1から10までの奇数の和と偶数の和
-        int sum3 = calculate.odd_sum(1, 10);
-        int sum4 = calculate.even_sum(1, 10);
+        sum3 = calculate.odd_sum(1, 10);
         System.out.println("Sum of odd of 1 to 10 is " + sum3 + ". " + "Sum of even is " + sum4 + ".");
     }
 }

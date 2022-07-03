@@ -22,31 +22,11 @@ public class Calculate {
     return this.to_sum(x, y) / num;
   }
 
-  public boolean odd(int x) {
+  public boolean odd(int x){
     if (x % 2 == 1) {
       return true;
     } else {
       return false;
     }
-  }
-
-  public int odd_sum(int x, int y) {
-    int sum = 0;
-    for (int i = x; i <= y; i++) {
-      if (this.odd(i) == true) {
-        sum = this.sum(sum, i);
-      }
-    }
-    return sum;
-  }
-
-  public int even_sum(int x, int y) {
-    int sum = 0;
-    for (int i = x; i <= y; i++) {
-      if (this.odd(i) == false) {
-        sum = this.sum(sum, i);
-      }
-    }
-    return sum;
   }
 }

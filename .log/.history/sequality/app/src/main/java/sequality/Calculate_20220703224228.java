@@ -37,16 +37,5 @@ public class Calculate {
         sum = this.sum(sum, i);
       }
     }
-    return sum;
-  }
-
-  public int even_sum(int x, int y) {
-    int sum = 0;
-    for (int i = x; i <= y; i++) {
-      if (this.odd(i) == false) {
-        sum = this.sum(sum, i);
-      }
-    }
-    return sum;
   }
 }

@@ -37,7 +37,6 @@ public class Calculate {
         sum = this.sum(sum, i);
       }
     }
-    return sum;
   }
 
   public int even_sum(int x, int y) {
@@ -47,6 +46,5 @@ public class Calculate {
         sum = this.sum(sum, i);
       }
     }
-    return sum;
   }
 }

@@ -31,22 +31,8 @@ public class Calculate {
   }
 
   public int odd_sum(int x, int y) {
-    int sum = 0;
-    for (int i = x; i <= y; i++) {
-      if (this.odd(i) == true) {
-        sum = this.sum(sum, i);
-      }
+    if (this.odd(x) == true) {
+      
     }
-    return sum;
-  }
-
-  public int even_sum(int x, int y) {
-    int sum = 0;
-    for (int i = x; i <= y; i++) {
-      if (this.odd(i) == false) {
-        sum = this.sum(sum, i);
-      }
-    }
-    return sum;
   }
 }
