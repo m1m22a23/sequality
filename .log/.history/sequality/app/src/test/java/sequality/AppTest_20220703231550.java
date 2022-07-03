@@ -28,6 +28,7 @@ public class AppTest {
   @Test
   public void testAppReternCalculate3() {
     App classUnderTest = new App();
-    assertEquals("Sum of odd of 1 to 10 is 25. Sum of even is 30.", classUnderTest.calculate3());
+    assertEquals(
+        "Sum of odd of 1 to 10 is 25. Sum of even is 30.", classUnderTest.calculate3());
   }
 }

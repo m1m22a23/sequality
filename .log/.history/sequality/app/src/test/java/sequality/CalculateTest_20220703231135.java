@@ -21,15 +21,8 @@ public class CalculateTest {
   @Test
   public void testToSum() {
     Calculate calculate = new Calculate();
-    int expected = 55;
-    assertEquals(expected, calculate.to_sum(1, 10));
-  }
-
-  @Test
-  public void testToAve() {
-    Calculate calculate = new Calculate();
     double expected = 5.5;
-    assertEquals(expected, calculate.to_ave(1, 10), 0);
+    assertEquals(expected, calculate.to_sum(2, 3), 0);
   }
 
   @Test

@@ -14,22 +14,15 @@ public class CalculateTest {
   @Test
   public void testAve() {
     Calculate calculate = new Calculate();
-    double expected = 2.5;
+    double expected = 55;
     assertEquals(expected, calculate.ave(2, 3), 0);
   }
 
   @Test
   public void testToSum() {
     Calculate calculate = new Calculate();
-    int expected = 55;
-    assertEquals(expected, calculate.to_sum(1, 10));
-  }
-
-  @Test
-  public void testToAve() {
-    Calculate calculate = new Calculate();
     double expected = 5.5;
-    assertEquals(expected, calculate.to_ave(1, 10), 0);
+    assertEquals(expected, calculate.to_sum(2, 3), 0);
   }
 
   @Test
@@ -56,7 +49,7 @@ public class CalculateTest {
   @Test
   public void testEvenSum() {
     Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.even_sum(1, 10));
+    int expected = 25;
+    assertEquals(expected, calculate.odd_sum(1, 10));
   }
 }
